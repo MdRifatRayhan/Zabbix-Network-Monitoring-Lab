@@ -65,7 +65,7 @@ Once connectivity to `Virtual-Router-01` was restored, Zabbix verified consecuti
 ├── screenshots/
 │   ├── 01-zabbix-dashboard.png
 │   ├── 02-snmp-latest-metrics.png
-│   ├── 03-interface-traffic-graph.jpg
+│   ├── 03-interface-traffic-graph.png
 │   ├── 04-incident-alert-triggered.png
 │   └── 05-incident-auto-resolved.png
 └── README.md

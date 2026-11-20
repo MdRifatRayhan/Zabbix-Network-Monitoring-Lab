@@ -45,7 +45,7 @@ Using SNMPv2c polling, Zabbix collects 21 live metrics from `Virtual-Router-01`,
 ### 3. Network Interface Bandwidth Utilization
 Historical graphing on `Interface eth0()` visualizes ingress (`12.92 Kbps` max) and egress (`4.32 Kbps` max) throughput alongside inbound/outbound packet error and discard counters.
 
-![Network Interface Bandwidth Utilization](screenshots/03-interface-traffic-graph.jpg)
+![Network Interface Bandwidth Utilization](screenshots/03-interface-traffic-graph.png)
 
 ### 4. Fault Detection & Incident Alerting
 To validate alerting workflows, a network outage was simulated on `Virtual-Router-01`. Zabbix immediately detected the unreachable host and fired a **High** severity alert (`Network Generic Device: Unavailable by ICMP ping`).
